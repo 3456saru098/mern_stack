@@ -1,0 +1,55 @@
+.blog_wrapper{
+    width:80vw;
+    margin:auto;
+    margin-top:70px;
+}
+
+.parent_position{
+
+    height:80vh;
+    width:40vw;
+    background-color:rgba(0, 0, 0, 0.192);
+
+    position:relative;
+    background-image: url(../image/babypic.jpg);
+    background-repeat: no-repeat;
+    background-position:center;
+    display:flex;
+    align-items:center;
+}
+
+
+.child_position{
+
+    height:6vh;
+    width:10vw;
+    background-color: black;
+    color:white;
+    position:absolute;
+    /* top: 10px; */
+    /* left:30px; */
+    bottom:-20px;
+    right:-60px;
+    border-radius: 10px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+
+}
+.child_position2{
+
+    height:6vh;
+    width:10vw;
+    background-color: black;
+    color:white;
+    position:absolute;
+    /* top: 10px; */
+    /* left:30px; */
+    top:-20px;
+    left:-60px;
+    border-radius: 10px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+
+}

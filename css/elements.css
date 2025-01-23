@@ -1,0 +1,55 @@
+body{
+    margin:0;
+    padding:0;
+}
+.new_navbar_class{
+
+    position:fixed;
+    background-color:black;
+    color:white;
+    width:100%;
+}
+
+.my_content{
+    padding-top:52px;
+    text-align: justify;
+    width:80vw;
+    margin:auto;
+    font-size:22px;
+    opacity:70%;
+}
+.sticky_relative{
+    position:relative;
+    height:100vh;
+    background-color: blueviolet;
+    /* display:flex;
+    align-items:center;
+    justify-content:center; */
+
+}
+.i_am_sticky{
+    position:sticky;
+    height:40vh;
+    width:40vh;
+    background-color: aqua;
+    top:60vh;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    border-radius:50%;
+}
+
+input{
+
+    padding:8px 6px;
+    border-radius:4px;
+    border:none;
+    outline: none;
+    /* border:1px solid gray; */
+    outline:1px solid blueviolet;
+
+}
+
+input:focus{
+    border:2px solid red;
+}
